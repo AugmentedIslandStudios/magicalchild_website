@@ -1,0 +1,33 @@
+{
+  "name": "Magical-child-website",
+  "version": "1.0.0",
+  "description": "Landing page for magical child ",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babelify": "^10.0.0",
+    "browserify": "^13.3.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-resolve-url": "0.0.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "pug": "^2.0.0-beta6",
+    "uniq": "^1.0.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "psicodead",
+  "license": "ISC"
+}

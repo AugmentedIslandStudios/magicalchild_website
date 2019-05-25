@@ -1,0 +1,115 @@
+@import 'fonts';
+$font-stack: "Montserrat", Helvetica, sans-serif;
+$tittle-color: #fff;
+$mainfontsize: 13pt;
+$width:100%;
+
+*{
+	box-sizing: border-box;
+	img{
+		width: 100%;
+	}
+}
+html{
+	overflow-x: hidden;
+
+	@media screen and (max-width: 950px){
+		font-size: 13px;
+	}
+}
+body{
+	overflow-x: hidden;
+	font: 100% $font-stack;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+
+	p,h1,h2,h3,h4,span{
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1);
+	}
+
+	p{
+		font-size: 1.5em;
+		line-height: 1.5em;
+		font-weight: 400;
+	}
+
+	h1{
+		font-weight: 400;
+		font-size: 2.3em;
+		z-index: 10;
+		
+		&.title{
+			font-size: 3em;
+		}
+
+		b{
+			
+			font-weight: 900;
+		}
+	}
+
+	h3{
+		font-size: 1.3em;
+		font-weight: normal;
+	}
+
+	a{
+		text-decoration: none;
+		color: black;
+	}
+
+	textarea {
+		resize: none;
+	}
+
+	section{
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: 40% auto;
+		
+		:focus{
+			outline: none;
+		}
+
+		.section{
+			padding: 0 70px;
+			width: 100%;
+			z-index: 4;
+			&:not(#about){
+				position: relative;
+			}
+		}
+	}
+
+	footer{
+		background: #0E6E7F;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 70px;
+
+		p{
+			margin: 0;
+			padding: 0;
+			color: white;
+			font-size: 1em;
+			font-weight: 600;
+			letter-spacing: 1px;
+		}
+	}
+
+	//@import 'comingsoon';
+	@import 'navbar';
+	@import 'about';
+	@import 'meetki';
+	@import 'howitworks';
+	@import 'team';
+	@import 'contact';
+	@import 'mobile';
+}

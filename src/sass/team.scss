@@ -1,0 +1,36 @@
+.messageBanner{
+    margin-top: 100px;
+    .message{
+        margin: 200px auto;
+        margin-bottom: 100px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+#team{
+    padding-top: 100px;
+    .peopleWrapper{
+        margin: 0 auto;
+        width: 100%;
+        
+        h1,h3,p{
+            text-align: center;
+        }
+        h1{
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        h3{
+            margin: 0 0 20px 0 ;
+            font-weight: 500;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: space-around;
+            .people{
+                width: 38%;
+            }
+        }
+    }
+}

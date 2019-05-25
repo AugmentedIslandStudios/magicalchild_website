@@ -1,0 +1,47 @@
+#contact.section
+   
+    h1
+        b Want to know when we launch?<br>Join our email list!
+        
+    .formWrapper
+        form(id="contactForm" enctype="text/plain")
+            label(for="name") First name
+            input(type="text" required name="name")
+            label(for="lastName") Last name
+            input(type="text" required name="lastName")
+            label(for="email") E-mail
+            input(type="email" required name="email")
+            //label(for="body") Message
+            //- textarea(name="body", cols="30", rows="10")
+            input(id="submitButton" type="submit" value="Send" height="80")
+
+
+    .contactInfo
+        .bg
+            img.left(src="./assets/images/background-figure-four.png")
+        
+        .contactTeam
+            h3 Cindy Starry
+            
+            .info
+                .icon
+                    img(src="./assets/images/email-icon.png")
+                p cindy@livingart.io
+
+            .info
+                .icon
+                    img(src="./assets/images/phone-icon.png")
+                p 949-338-7470
+        
+        .contactTeam
+            h3 Lindsay Carron
+
+            .info
+                .icon
+                    img(src="./assets/images/email-icon.png")
+                p lindsay@livingart.io
+
+            .info
+                .icon
+                    img(src="./assets/images/phone-icon.png")
+                p 414-530-2559
