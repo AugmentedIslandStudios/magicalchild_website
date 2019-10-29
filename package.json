@@ -4,7 +4,7 @@
   "description": "Landing page for magical child ",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.15.0"
+    "lodash": "^4.17.13"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
